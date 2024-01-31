@@ -1,0 +1,20 @@
+{
+  "QUALITY_OPERATION": {
+    "AUTO_SELECT_FIRST_APP": {
+      "description": "自动选择第一个APP",
+      "value": "process.env.SCENE !== 'quality'"
+    },
+    "AUTO_SELECT_MEMO_APP": {
+      "description": "自动选择上次选择APP",
+      "value": "process.env.SCENE !== 'quality'"
+    },
+    "REFRESH_FILTER_RESET": {
+      "description": "重置过滤",
+      "value": "process.env.SCENE !== 'quality'"
+    },
+    "SHOW_WATERMARK": {
+      "description": "展示页面水印",
+      "value": "process.env.SCENE !== 'quality'"
+    }
+  }
+}
