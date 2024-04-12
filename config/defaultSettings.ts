@@ -12,7 +12,7 @@ const Settings: LayoutSettings & {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: '运营运维管理平台',
+  title: '创作平台H5',
   pwa: false,
   logo: '/pro_icon.svg',
   iconfontUrl: '',

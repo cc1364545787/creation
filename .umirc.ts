@@ -1,12 +1,18 @@
 import { defineConfig } from 'umi';
+import routes from './config/routes';
 
 export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  layout: {},
-  // routes: [
-  //   { path: '/', component: '@/pages/home/index' },
-  // ], // 配置写在config.ts
+  // layout: {},
+  base: '/',
+  publicPath: '/',
+  hash: true,
+  antd: {},
+  dva: {
+    hmr: true,
+  },
+  routes,
   fastRefresh: {},
 });
