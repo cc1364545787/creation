@@ -2,8 +2,12 @@ import styles from './index.less';
 
 const HomePage = () => {
   return (
-    <div>
-      <h1 className={styles.title}>Home index</h1>
+    <div className={styles.main}>
+      <div>111</div>
+      <div>111</div>
+      <div>111</div>
+      <div>111</div>
+      <div className={styles.index}>Home index</div>
     </div>
   );
 }
