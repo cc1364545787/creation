@@ -20,7 +20,7 @@
 
   // },
 const routes = [
-  { path: '/', redirect: '/home'},
+  { path: '/', redirect: '/creation'},
   { path: '/home', name: '首页', component: '@/pages/home/index' },
   { path: '/creation',  name: '创作中心', component: '@/pages/creation/index' },
 ];
