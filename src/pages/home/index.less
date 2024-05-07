@@ -1,10 +1,12 @@
 .index {
-  background: rgb(217, 232, 244);
+  background: rgb(225, 234, 248);
   width: 100%;
-  height: 56px;
+  height: 66px;
   position: fixed;
   box-shadow: 1px solid rgb(166, 167, 169);
   align-self: flex-end;
+  display: flex;
+  justify-content: space-around;
 }
 .main {
   background-image: url(../../assets/imgs/bg_container.png);
@@ -13,4 +15,17 @@
   width: 100vw;
   display: flex;
   overflow: scroll;
+}
+.indexBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iconBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
 }

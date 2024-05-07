@@ -20,9 +20,12 @@
 
   // },
 const routes = [
-  { path: '/', redirect: '/creation'},
-  { path: '/home', name: '首页', component: '@/pages/home/index' },
-  { path: '/creation',  name: '创作中心', component: '@/pages/creation/index' },
+  { path: '/', redirect: '/login'},
+  { path: '/login', name: 'Login', component: '@/pages/login/index' },
+  { path: '/home', name: 'Home', component: '@/pages/home/index' },
+  { path: '/creation',  name: 'Creation', component: '@/pages/creation/index' },
+  { path: '/digital',  name: 'Digital', component: '@/pages/digital/index' },
+  { path: '/mine',  name: 'Mine', component: '@/pages/mine/index' },
 ];
 
 export default routes;

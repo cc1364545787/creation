@@ -1,16 +1,12 @@
 import styles from './index.less';
-import { useHistory } from 'react-router-dom';
-import {Button} from 'antd';
+// import { useState } from 'react';
+import IndexPage from '@/components/index';
 
-const HomePage = () => {
-  const history = useHistory()
-const enterHome = () => {
-  history.push('/home')
-}
+const CreationPage = () => {
   return (
     <div className={styles.main}>
-      <Button className={styles.title} onClick={enterHome}>进入创作平台</Button>
+      <IndexPage />
     </div>
   );
 }
-export default HomePage
+export default CreationPage
