@@ -51,19 +51,19 @@ const indexPage = () => {
       <div className={styles.index}>
         <div className={styles.indexBox} onClick={() => handleActive(homeText)}>
           <img className={styles.iconBox} src={activeHomeIcon()} />
-          <span>首页</span>
+          <span className={activeHomeIcon()===home?styles.text:styles.activeText}>首页</span>
         </div>
         <div className={styles.indexBox} onClick={() => handleActive(creationText)}>
           <img className={styles.iconBox} src={activeCreationIcon()} />
-          <span>创作中心</span>
+          <span className={activeCreationIcon()===creation?styles.text:styles.activeText}>创作中心</span>
         </div>
         <div className={styles.indexBox} onClick={() => handleActive(digitalText)}>
         <img className={styles.iconBox} src={activeDigitalPeopleIcon()} />
-          <span>数智人中心</span>
+          <span className={activeDigitalPeopleIcon()===digitalPeople?styles.text:styles.activeText}>数智人中心</span>
         </div>
         <div className={styles.indexBox} onClick={() => handleActive(mineText)}>
         <img className={styles.iconBox} src={activeMineIcon()} />
-          <span>个人中心</span>
+          <span className={activeMineIcon()===mine?styles.text:styles.activeText}>个人中心</span>
         </div>
       </div>
   );
