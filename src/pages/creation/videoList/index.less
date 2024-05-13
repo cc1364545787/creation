@@ -1,43 +1,42 @@
 
 .main {
-  background-image: url(../../assets/imgs/bg_container.png);
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   display: flex;
   overflow: scroll;
-}
-.createBox {
-  display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
-
+  margin-bottom: 100px;
+}
+.videoBox {
+  background-color: #FFF;
+  border: 1px solid rgb(203, 199, 199);
+  border-radius: 12px;
+  height: 200px;
   width: 200px;
-  height: 70px;
-  background: #f3fafb;
-  border: 1px solid #E9E9EA;
-  border-radius: 8px;
-  padding-left: 20px;
-  margin: 20px;
-  .title {
-    font-family: 'PingFangSC-SNaNpxibold';
-    margin-bottom: 6px;
-    font-weight: 600;
-    font-size: 16px;
-    color: #28292E;
-  }
-  .msg {
-    font-family: 'PingFangSC-Regular';
-    font-weight: 400;
-    font-size: 12px;
-    color: #595B66;
-  }
+  margin-bottom: 14px;
 }
-.createBoxLeft {
-  display: flex;
+.videoContent {
+  border-radius: 12px 12px 0 0;
+  height: 140px;
+  width: 100%;
 }
-.createBoxImg {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
+.videoContentImg {
+  height: 100%;
+  width: 100%;
+}
+.videoMsg {
+  height: 60px;
+  width: 100%;
+  padding: 8px;
+}
+.videoMsgTitle {
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.videoMsgTime {
+  font-size: 12px;
+  color: rgb(108, 108, 107);
 }
